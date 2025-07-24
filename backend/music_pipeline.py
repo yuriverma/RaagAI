@@ -22,7 +22,7 @@ def generate_music(genre, API_KEY, track_length=30):
 
     # Step 3: Generate lyrics
     print("➡ Generating lyrics...")
-    lyrics = generate_lyrics(genre, api_key)
+    lyrics = generate_lyrics(genre, API_KEY)
     lyrics_dir = "outputs/lyrics"
     os.makedirs(lyrics_dir, exist_ok=True)
     lyrics_path = os.path.join(lyrics_dir, f"{genre}_lyrics.txt")
