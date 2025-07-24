@@ -25,7 +25,7 @@ def generate_arrangement(genre, track_length=30, api_key=None, model="sonar-pro"
 
     url = "https://api.perplexity.ai/chat/completions"
     headers = {
-        "Authorization": f"Bearer {api_key}",
+        "Authorization": f"Bearer {API_KEY}",
         "Content-Type": "application/json"
     }
 
