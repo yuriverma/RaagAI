@@ -1,6 +1,6 @@
 import requests
 
-def generate_lyrics(genre, api_key, model="sonar-pro"):
+def generate_lyrics(genre, API_KEY, model="sonar-pro"):
     """
     Generate lyrics for the given genre using Perplexity API.
     Returns text string.
