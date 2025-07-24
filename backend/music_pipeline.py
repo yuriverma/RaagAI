@@ -3,7 +3,7 @@ from backend.audio_mixer import mix_audio
 from backend.lyrics_generator import generate_lyrics
 import os
 
-def generate_music(genre, api_key, track_length=30):
+def generate_music(genre, API_KEY, track_length=30):
     """
     Full pipeline: arrangement → lyrics → audio mix → save outputs.
     """
@@ -11,7 +11,7 @@ def generate_music(genre, api_key, track_length=30):
 
     # Step 1: Get Arrangement from Perplexity
     print("➡ Fetching arrangement...")
-    arrangement = generate_arrangement(genre, track_length, api_key)
+    arrangement = generate_arrangement(genre, track_length, API_KEY)
     print(f"✅ Arrangement received: {arrangement}")
 
     # Step 2: Mix audio
