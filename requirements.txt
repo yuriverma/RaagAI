@@ -1,4 +1,21 @@
-streamlit
-pydub
-requests
+# Core
+streamlit==1.47.0
+requests==2.32.4
+
+# Audio Processing
+pydub==0.25.1
+audioop-lts==0.2.1 
+# For API Calls
+openai==1.12.0   # If using OpenAI-like API
+python-dotenv==1.0.1
+
+# Utils
+numpy==1.26.4
+pandas==2.3.1
+
+# Optional (for async requests)
+httpx==0.27.0
+
+# If audio playback in browser is needed
+ffmpeg-python==0.2.0
 
