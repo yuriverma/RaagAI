@@ -3,7 +3,7 @@
 
 ![Made with ❤️ in India](https://img.shields.io/badge/Made%20with%20❤️-India-orange)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.47.0-FF4B4B?logo=streamlit)
-![OpenAI](https://img.shields.io/badge/OpenAI-powered-blue?logo=openai)
+
 
 ## What is RaagAI?
 RaagAI is your AI-powered Indian classical music generator — built for creators, dreamers, and anyone who has ever been told "no".
