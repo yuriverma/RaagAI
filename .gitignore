@@ -1,3 +1,18 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Streamlit secrets
+.streamlit/
+
+# Outputs (tracks & lyrics)
+outputs/
+
+# OS junk
+.DS_Store
 .streamlit/secrets.toml
 outputs/
 __pycache__/
