@@ -9,7 +9,7 @@ GENRE_SAMPLES = {
     "dhh": ["kick.mp3", "snare.mp3", "bass.mp3"]
 }
 
-def generate_arrangement(genre, track_length=30, api_key=None, model="sonar-pro", debug=False):
+def generate_arrangement(genre, track_length=30, API_KEY=None, model="sonar-pro", debug=False):
     loops = GENRE_SAMPLES.get(genre.lower(), GENRE_SAMPLES["classical"])
 
     prompt = f"""
