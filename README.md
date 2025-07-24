@@ -21,11 +21,11 @@ Inspired by Peaky Blinders’ aesthetic and Seedhe Maut's fire, RaagAI blends tr
 ## Setup & Run
 
 *git clone https://github.com/yuriverma/RaagAI.git*
-*cd RaagAI*
-*python3 -m venv venv*
-*source venv/bin/activate*
-*pip install -r requirements.txt*
-*streamlit run app.py*
+<br> *cd RaagAI*
+<br> *python3 -m venv venv*
+<br> *source venv/bin/activate*
+<br> *pip install -r requirements.txt*
+<br> *streamlit run app.py*
 
 **Add your secrets in .streamlit/secrets.toml:**
 
